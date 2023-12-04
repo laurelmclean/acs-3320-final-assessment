@@ -23,6 +23,7 @@ class TickerTape extends HTMLElement {
     }
 
     _updateText() {
+        this._tickerText.style.fontSize = '2em';
         this._tickerText.textContent = this._text.substring(this._currentIndex) + this._text.substring(0, this._currentIndex);
     }
 }

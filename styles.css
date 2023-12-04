@@ -341,3 +341,8 @@ input:checked+.slider:before {
     flex-direction: column;
     align-items: flex-start;
 }
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}

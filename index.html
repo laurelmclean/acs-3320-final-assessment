@@ -114,7 +114,7 @@
 							<textarea></textarea>
 						</label>
 
-                            <div>
+                            <div class="checkbox-container">
                                 <label id="switch-2" class="switch-2">
                                     <input type="checkbox">
                                     <span class="slider"></span>
@@ -280,7 +280,7 @@
 						</span>
             
 						<span>
-							<input class="update" data-name="${cart[i].name}" type="number" value="${cart[i].qty}">
+							<input style="width: 100px;"" class="update" data-name="${cart[i].name}" type="number" value="${cart[i].qty}">
 							<button class="add-one" data-name="${cart[i].name}" style="background-color: var(--color-success);"> + </button>
 							<button class="remove-one" data-name="${cart[i].name}"> - </button>
 							<button class="remove" data-name="${cart[i].name}" style="background-color: var(--color-danger);">remove</button>
